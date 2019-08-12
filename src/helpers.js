@@ -70,6 +70,9 @@ export const buildSheetFromMatrix = (data, options = {}) => {
   if (options['!cols']) {
     workSheet['!cols'] = options['!cols'];
   }
+  if (options['!rows']) {
+    workSheet['!rows'] = options['!rows'];
+  }
   if (options['!merges']) {
     workSheet['!merges'] = options['!merges'];
   }
